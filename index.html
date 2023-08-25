@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts (Hanken Grotesk) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="left">
+          <div class="left-con">
+            <p class="result-text">Your Result</p>
+            <div class="circle-bg">
+              <p class="score">
+                76
+                <span>of 100</span>
+              </p>
+            </div>
+            <p class="great-text">Great</p>
+            <p class="description">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-con">
+            <div class="title">Summary</div>
+            <div class="pill danger">
+              <p class="text">
+                <object data="./assets/images/icon-reaction.svg"></object>
+                Reaction
+              </p>
+              <p class="pill-score">80 <span>/ 100</span></p>
+            </div>
+            <div class="pill warning">
+              <p class="text">
+                <object data="./assets/images/icon-memory.svg"></object>
+                Memory
+              </p>
+              <p class="pill-score">92 <span>/ 100</span></p>
+            </div>
+            <div class="pill success">
+              <p class="text">
+                <object data="./assets/images/icon-verbal.svg"></object>
+                Verbal
+              </p>
+              <p class="pill-score">61 <span>/ 100</span></p>
+            </div>
+            <div class="pill primary">
+              <p class="text">
+                <object data="./assets/images/icon-visual.svg"></object>
+                Visual
+              </p>
+              <p class="pill-score">72 <span>/ 100</span></p>
+            </div>
+            <button>Continue</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </body>
+</html>

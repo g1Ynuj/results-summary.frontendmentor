@@ -1,0 +1,151 @@
+body {
+  height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Hanken Grotesk", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  width: 500px;
+  height: 380px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px 1px rgb(234, 237, 255);
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-con {
+  margin-bottom: 20px;
+  padding: 0 40px;
+}
+
+.result-text {
+  color: hsl(0, 0%, 82%);
+}
+
+.circle-bg {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
+}
+
+.score {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.score span {
+  display: block;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.great-text {
+  font-size: 24px;
+  margin: 0;
+}
+
+.description {
+  color: hsl(0, 0%, 82%);
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.right {
+  width: 50%;
+}
+.right-con {
+  padding: 24px;
+}
+.right-con .title {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+.pill {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin: 18px 0;
+  padding: 0 12px;
+}
+
+.text {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.danger {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.warning {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.success {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.primary {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.pill-score {
+  font-size: 12px;
+  color: #000;
+}
+.pill-score span {
+  color: #999;
+}
+.right-con button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 24px;
+  color: #fff;
+  cursor: pointer;
+  background-color: hsl(224, 30%, 27%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
