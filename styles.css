@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -20,8 +20,8 @@ p {
 }
 
 .card {
-  width: 500px;
-  height: 380px;
+  width: 600px;
+  height: 450px;
   border-radius: 12px;
   box-shadow: 0 0 15px 1px rgb(234, 237, 255);
   display: flex;
@@ -40,70 +40,76 @@ p {
 }
 
 .left-con {
-  margin-bottom: 20px;
-  padding: 0 40px;
+  padding: 0 3rem;
+  margin-bottom: 2rem;
 }
 
 .result-text {
   color: hsl(0, 0%, 82%);
+  font-weight: 700;
 }
 
 .circle-bg {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 12px auto;
+  margin: 1.5rem auto;
 }
 
 .score {
-  font-size: 50px;
+  font-size: 54px;
   font-weight: 800;
 }
 
 .score span {
   display: block;
-  font-size: 12px;
-  color: #ccc;
+  font-size: 14px;
+  opacity: 0.3;
 }
 
 .great-text {
   font-size: 24px;
+  font-weight: 700;
   margin: 0;
 }
 
 .description {
   color: hsl(0, 0%, 82%);
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 12px;
 }
 
 .right {
   width: 50%;
 }
+
 .right-con {
-  padding: 24px;
+  padding: 2.1rem;
 }
+
 .right-con .title {
+  font-size: 18px;
   color: hsl(224, 30%, 27%);
   font-weight: 700;
 }
+
 .pill {
-  height: 45px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  margin: 18px 0;
-  padding: 0 12px;
+  margin: 1.2rem 0;
+  padding: 0 1rem;
 }
 
 .text {
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,26 +132,40 @@ p {
   color: hsl(234, 85%, 45%);
   background-color: hsla(234, 85%, 45%, 0.1);
 }
+
 .pill-score {
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
+  font-weight: 700;
 }
+
 .pill-score span {
-  color: #999;
+  color: #bbb;
 }
+
 .right-con button {
   width: 100%;
-  height: 40px;
+  height: 45px;
   border: none;
   border-radius: 24px;
+  font-weight: 700;
   color: #fff;
   cursor: pointer;
   background-color: hsl(224, 30%, 27%);
+  margin-top: 1rem;
 }
+
+.right-con button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 10px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
