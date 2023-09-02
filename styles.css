@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -21,8 +21,8 @@ p {
 
 .card {
   width: 600px;
-  height: 450px;
-  border-radius: 12px;
+  height: 420px;
+  border-radius: 24px;
   box-shadow: 0 0 15px 1px rgb(234, 237, 255);
   display: flex;
 }
@@ -32,26 +32,22 @@ p {
   color: hsl(0, 0%, 100%);
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
 .left-con {
-  padding: 0 3rem;
-  margin-bottom: 2rem;
+  margin: 2.1rem 3rem;
 }
 
-.result-text {
-  color: hsl(0, 0%, 82%);
+.left-con .title {
+  color: hsl(0, 0%, 100%);
+  opacity: 0.7;
   font-weight: 700;
 }
 
 .circle-bg {
-  width: 175px;
-  height: 175px;
+  width: 160px;
+  height: 160px;
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
   display: flex;
@@ -79,7 +75,8 @@ p {
 }
 
 .description {
-  color: hsl(0, 0%, 82%);
+  color: hsl(0, 0%, 100%);
+  opacity: 0.7;
   font-size: 14px;
   margin-top: 12px;
 }
@@ -89,11 +86,10 @@ p {
 }
 
 .right-con {
-  padding: 2.1rem;
+  margin: 2.1rem;
 }
 
 .right-con .title {
-  font-size: 18px;
   color: hsl(224, 30%, 27%);
   font-weight: 700;
 }
@@ -104,7 +100,7 @@ p {
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  margin: 1.2rem 0;
+  margin: 0.8rem 0;
   padding: 0 1rem;
 }
 
